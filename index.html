@@ -1,43 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="navbar">My Weather App</nav>
 
     <div class="container">
-        <div id="container1">
-            <div class="region-container">
-                <h2 class="location-name"></h2>
+      <div id="container1">
+        <div class="region-container">
+          <h2 class="location-name"></h2>
 
-                <div class="temp">
-                    <h3>25C</h3>
-                    <div class="PHWind">
-                        <p>precipitation</p>
-                        <p>Humidity</p>
-                        <p>Wind</p>
-                    </div>
-                </div>
+          <div class="temp">
+            <h3>25 °C</h3>
+            <h5 class="time">Time: 12:00 AM</h5>
+            <div class="PHWind">
+              <p>precipitation:</p>
+              <p>Humidity:</p>
+              <p>Wind:</p>
             </div>
-
-            <div class="search-box">
-                <input type="search" placeholder="search for region" />
-                <button type="submit">Search</button>
-
-            </div>
+          </div>
         </div>
+
+        <div class="search-box">
+          <input type="search" placeholder="search for region" />
+          <button type="submit">Search</button>
+        </div>
+      </div>
     </div>
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
